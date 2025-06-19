@@ -6,3 +6,19 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Ignore compiled Tailwind CSS executable
+frontend/tailwindcss.exe
+
+# Node modules (should already be here, but double-check)
+node_modules/
+
+# Other common build/temp files
+dist/
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.vscode/
