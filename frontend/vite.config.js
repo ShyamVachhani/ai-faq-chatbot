@@ -1,0 +1,12 @@
+// frontend/vite.config.js
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  // NEW: Explicitly configure CSS processing with PostCSS
+  css: {
+    postcss: './postcss.config.cjs', // Point to your PostCSS config file
+  }
+})

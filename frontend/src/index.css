@@ -1,0 +1,13 @@
+/* frontend/src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure NO other custom CSS or default Vite starter CSS is present here */
+body {
+  margin: 0;
+  min-width: 320px; /* Minimal width for responsive design */
+  min-height: 100vh; /* Ensures body takes full viewport height */
+  overflow: hidden; /* Prevents double scrollbars if inner content scrolls */
+}
