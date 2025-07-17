@@ -1,8 +1,9 @@
 /* frontend/src/index.css */
-
+@import "@fontsource/inter";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 /* Ensure NO other custom CSS or default Vite starter CSS is present here */
 body {
@@ -10,4 +11,5 @@ body {
   min-width: 320px; /* Minimal width for responsive design */
   min-height: 100vh; /* Ensures body takes full viewport height */
   overflow: hidden; /* Prevents double scrollbars if inner content scrolls */
+  font-family: 'Inter', sans-serif;
 }

@@ -19,28 +19,6 @@ const CommonQuestionsPanel = () => (
     </div>
 );
 
-const UnansweredQueriesPanel = () => (
-    <div className="bg-white p-6 rounded-xl shadow-md h-full overflow-y-auto">
-        <div className="flex justify-between items-center mb-4">
-            <h3 className="text-xl font-semibold text-gray-800">Unanswered Queries</h3>
-            <span className="text-sm font-medium text-red-500 bg-red-100 px-3 py-1 rounded-full">2</span>
-            <button className="text-blue-600 hover:text-blue-800 text-sm font-semibold">Clear All</button>
-        </div>
-        <div className="space-y-3">
-            <div className="bg-red-50 p-3 rounded-lg flex justify-between items-center">
-                <p className="text-gray-700">where are you located?</p>
-                <span className="text-xs text-gray-500">2025-06-18T18:20:26.951Z</span>
-            </div>
-            <div className="bg-red-50 p-3 rounded-lg flex justify-between items-center">
-                <p className="text-gray-700">yes</p>
-                <span className="text-xs text-gray-500">2025-06-18T18:20:38.404Z</span>
-            </div>
-        </div>
-        <p className="text-sm text-gray-500 mt-4 italic">Use these queries to improve your FAQ database and train your AI model.</p>
-    </div>
-);
-
-
 function App() {
     const [authData, setAuthData] = useState(() => {
         const storedAuthData = localStorage.getItem('authData');
@@ -113,16 +91,7 @@ function App() {
                                     </>
                                 )}
                             </button>
-                            <button
-                                onClick={() => setShowAdminPanel(!showAdminPanel)}
-                                className="px-4 py-2 bg-gray-200 text-gray-800 rounded-full text-sm font-semibold hover:bg-gray-300 transition-colors duration-200 flex items-center gap-1 shadow-sm"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                                {showAdminPanel ? 'Hide Admin Panel' : 'Show Admin Panel'}
-                            </button>
+
                             {authData.username && (
                                 <div className="flex items-center gap-2 text-gray-700 text-sm font-semibold">
                                     <span>Welcome, {authData.username}!</span>
@@ -148,7 +117,6 @@ function App() {
                         {(showCommonQuestions || showAdminPanel) && (
                             <div className="w-1/3 bg-gray-100 p-6 space-y-6 overflow-y-auto border-l border-gray-200">
                                 {showCommonQuestions && <CommonQuestionsPanel />}
-                                {showAdminPanel && <UnansweredQueriesPanel />}
                             </div>
                         )}
                     </div>

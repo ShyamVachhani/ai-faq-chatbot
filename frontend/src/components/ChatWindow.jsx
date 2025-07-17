@@ -52,6 +52,7 @@ const ChatWindow = ({ authenticatedUserId }) => {
         loadHistory();
     }, [currentUserId]); // Dependency on currentUserId to reload if it changes
 
+
     const handleSendMessage = async () => {
         if (inputMessage.trim() === '') return;
         if (!currentUserId) { // Prevent sending if no user ID

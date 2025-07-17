@@ -66,6 +66,63 @@ A: We typically require a 30% upfront payment, 40% midway through the project, a
 
 Q: Can I request changes during the project?
 A: Yes, minor changes can be accommodated within the agreed scope. Significant changes may require a change order and affect the timeline/cost.
+
+Q: How can I reset my password?
+A: To reset your password, click on the "Forgot Password" link on the login page and follow the instructions sent to your email.
+
+Q: What payment methods do you accept?
+A: We accept all major credit/debit cards, UPI, net banking, and wallet payments like Paytm and Google Pay.
+
+Q: What is your return policy?
+A: You can return products within 7 days of delivery. The items must be unused, with original packaging. Please check our Return Policy page for full details.
+
+Q: How do I track my order?
+A: After your order is placed, you’ll receive a tracking link via email or SMS. You can also log in to your account and go to the "My Orders" section to track it.
+
+Q: How long does delivery take?
+A: Delivery usually takes 3–5 business days, depending on your location.
+
+Q: Can I change my shipping address after placing an order?
+A: Yes, you can update your shipping address within 2 hours of placing your order by contacting our support team.
+
+Q: Do you offer international shipping?
+A: Currently, we only ship within India. International shipping is not available at this time.
+
+Q: How do I contact customer support?
+A: You can reach our support team via the "Contact Us" page or email us at support@example.com.
+
+Q: Can I cancel my order after placing it?
+A: Yes, orders can be cancelled within 2 hours of placing them. After that, the cancellation window closes.
+
+Q: What should I do if my order is damaged?
+A: If your order arrives damaged, please contact our support team with photos within 24 hours for a replacement or refund.
+
+Q: Is it safe to make payments on your website?
+A: Yes, we use SSL encryption and secure payment gateways to ensure your transactions are completely safe.
+
+Q: Do you offer cash on delivery (COD)?
+A: Yes, we offer cash on delivery for orders up to ₹5,000.
+
+Q: Can I get an invoice for my order?
+A: Absolutely! An invoice will be sent to your email once the order is confirmed. You can also download it from the "My Orders" section.
+
+Q: How can I update my profile information?
+A: Log in to your account and go to "Profile Settings" to update your name, email, or other details.
+
+Q: I didn’t receive my OTP, what should I do?
+A: Please check your spam folder or wait a few minutes. If it still doesn’t arrive, click "Resend OTP" on the screen.
+
+Q: Is there a referral program I can join?
+A: Yes! You can refer friends and earn discounts. Visit our "Refer & Earn" page for more info.
+
+Q: Do you have a mobile app?
+A: Not yet, but we're working on launching one soon. Stay tuned!
+
+Q: How do I subscribe to your newsletter?
+A: Scroll to the bottom of the page and enter your email in the "Subscribe" box to get the latest updates and offers.
+
+Q: Do you offer gift cards or vouchers?
+A: Yes, we offer digital gift cards that you can send to your friends and family. Check our Gift Cards section to buy one.
 `;
 
 // --- Chatbot API Endpoint ---
